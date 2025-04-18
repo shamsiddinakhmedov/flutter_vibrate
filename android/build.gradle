@@ -36,8 +36,8 @@ android {
         disable 'InvalidPackage'
     }
 
-    if (project.android.hasProperty("namespace")) {
-        namespace 'flutter.plugins.vibrate'
-    }
+//    if (project.android.hasProperty("namespace")) {
+//        namespace 'flutter.plugins.vibrate'
+//    }
 
 }
